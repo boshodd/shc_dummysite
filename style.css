@@ -31,13 +31,13 @@ nav li a{
   transition: all .3s linear;
 }
 nav li:nth-child(1) a{
-  background: #4267B2;
+  background: #3b5998;
 }
 nav li:nth-child(2) a{
   background: #1DA1F2;
 }
 nav li:nth-child(3) a{
-  background: #E1306C;
+  background: #FF0000;
 }
 nav li:nth-child(4) a{
   background: #2867B2;
