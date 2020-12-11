@@ -6,6 +6,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Sacred Heart Church</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <style type="text/css">
         .arial {
@@ -18,7 +20,8 @@
 
         body {
             background-image: url();
-            background-color: #FCF;
+            /* background-color: #FCF; */
+            background-color: #ffffff;
         }
 
         .arial1 {
@@ -41,7 +44,7 @@
 </head>
 
 <body>
-    
+
     <tr>
         <td colspan="3">
             <p>
@@ -150,69 +153,90 @@
                     </td>
                 </tr>
             </table>
-            <nav>
+        </td>
+    </tr>
+
+    <!-- <nav>
                 <ul>
-                    <li><a href="https://www.facebook.com/Sacred-Heart-Catholic-Church-Bhayandar-962318043849577"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li>
 
                     <li><a href="#"><i class="fab fa-instagram"></i><span>Instagram</span></a></li>
 
                     <li><a href="https://www.youtube.com/channel/UCe4v70ixUEkQecglePl4Zpg"><i class="fab fa-youtube"></i><span>Youtube</span></a></li>
                 </ul>
-            </nav>
-            <div class="marquee" id="mycrawler2"><img src="image/shc.jpg" /><img src="image/ch1.jpg" /> <img
+            </nav> -->
+    <div class="marquee" id="mycrawler2"><img src="image/shc.jpg" />
+        <img src="image/ch1.jpg" />
+        <!--<img
                     src="image/an4.jpg" /> <img src="image/ch7.jpg" /> <img src="image/ch8.jpg" /> <img
-                    src="image/ch11.jpg" />
-            </div>
-            <script type="text/javascript">
-                marqueeInit({
-                    uniqueid: 'mycrawler2',
-                    style: {
-                        'width': '1600px',
-                        'height': '550px'
-                    },
-                    inc: 3, //speed - pixel increment for each iteration of this marquee's movement
-                    //mouse: 'pause', //mouseover behavior ('pause' 'cursor driven' or false)
-                    moveatleast: 2,
-                    neutral: 150,
-                    direction: 'right',
-                    savedirection: true,
-                    random: true
-                });
-            </script>
-            <div class="marquee" id="mycrawler">
-                <p style="color:Blue;font-family:'Times New Roman', Times, serif;font-size:30px"><b><i>“As the Father
-                            has loved me, so I have loved you; abide in my love.”(John
-                            15:9)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“They rely on weapons and daring,” he
-                            said, “but we trust in the almighty God, who is able to strike down with a single nod those
-                            coming against us—and even the whole world.” (2 Maccabees
-                            8:18)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></b></p>
-            </div>
-            <script type="text/javascript">
-                marqueeInit({
-                    uniqueid: 'mycrawler',
-                    inc: 2, //speed - pixel increment for each iteration of this marquee's movement
-                    mouse: false, //mouseover behavior ('pause' 'cursor driven' or false)
-                    moveatleast: 3,
-                    neutral: 150,
-                    savedirection: true,
-                    random: true
-                });
-            </script>
+                    src="image/ch11.jpg" /> -->
+    </div>
+    <script type="text/javascript">
+        marqueeInit({
+            uniqueid: 'mycrawler2',
+            style: {
+                'width': '1600px',
+                'height': '550px'
+            },
+            inc: 3, //speed - pixel increment for each iteration of this marquee's movement
+            //mouse: 'pause', //mouseover behavior ('pause' 'cursor driven' or false)
+            moveatleast: 2,
+            neutral: 150,
+            direction: 'right',
+            savedirection: true,
+            random: true
+        });
+    </script>
+    <div class="marquee" id="mycrawler">
+        <p style="color:Blue;font-family:'Times New Roman', Times, serif;font-size:30px"><b><i>“As the Father
+                    has loved me, so I have loved you; abide in my love.”(John
+                    15:9)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“They rely on weapons and daring,” he
+                    said, “but we trust in the almighty God, who is able to strike down with a single nod those
+                    coming against us—and even the whole world.” (2 Maccabees
+                    8:18)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></b></p>
+    </div>
+    <script type="text/javascript">
+        marqueeInit({
+            uniqueid: 'mycrawler',
+            inc: 2, //speed - pixel increment for each iteration of this marquee's movement
+            mouse: false, //mouseover behavior ('pause' 'cursor driven' or false)
+            moveatleast: 3,
+            neutral: 150,
+            savedirection: true,
+            random: true
+        });
+    </script>
 
 
 
-            <!-- Start of social media icons-->
-            
+    <!-- Start of social media icons-->
 
-            <!-- End of social media icons -->
 
+    <!-- End of social media icons -->
+    <div class="footer row">
+        <div class=" col-md-6 left">
             <div class="social_media_icons">
-                <i class="fab fa-facebook-f fa-2x"></i>
-                <i class="fab fa-youtube fa-2x"></i>
-                <i class="fab fa-instagram fa-2x"></i>
+                <a href="https://www.facebook.com/Sacred-Heart-Catholic-Church-Bhayandar-962318043849577/"> <i class="fab fa-facebook-f fa-2x"></i></a>
+                <a href="https://www.youtube.com/channel/UCe4v70ixUEkQecglePl4Zpg"> <i class="fab fa-youtube fa-2x"></i></a>
+                <a href="https://www.instagram.com/shybs_official/"> <i class="fab fa-instagram fa-2x"></i></a>
+            </div>
+            <div>
+                Address: Fatak Rd, Bhayandar, Vikas Industrial Estate, Bhayandar East, Mira Bhayandar,
+                Maharashtra 401105.
+                <br>Phone: 022-2819 2096 <br>
+
+                Copyright Sacred Heart Church. All rights Reserved.
 
             </div>
+        </div>
+        <div class="col-md-6 address">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15062.416656456746!2d72.8549313!3d19.2995726!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd9a2aa73f659902f!2sSacred%20Heart%20Catholic%20Church!5e0!3m2!1sen!2sin!4v1607428193169!5m2!1sen!2sin"
+                width="300 " height="150" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
 
+        </div>
+    </div>
 
 </body>
 
