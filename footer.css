@@ -1,0 +1,52 @@
+.footer{
+  position: relative;
+  
+  background-color: #329abf;
+  padding: 20px;
+  color: #ffffff;
+  margin-right: 0px;
+
+}
+
+.left{
+  text-align: center;
+}
+.social_media_icons{
+ 
+display: flex;
+justify-content: center;
+padding-bottom: 15px;
+ 
+}
+
+.social_media_icons a{
+ height: 50px;
+ width: 50px;
+ padding-top: 8px;
+ margin-right: 30px;
+ background-color: white;
+ border-radius: 50px;
+}
+.social_media_icons a i{
+  transition: all 0.3s linear;
+}
+
+.social_media_icons a:hover i{
+ transform: scale(1.2);
+}
+.fa-facebook{
+  color: #4267B2;
+}
+.fa-instagram{
+  color:#8a3ab9;
+}
+
+.fa-youtube{
+  color:#c4302b;
+}
+
+.address{
+  text-align: center;
+  padding-top: 30px;
+}
+ /*End of social media icons*/

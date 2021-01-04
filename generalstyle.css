@@ -1,0 +1,94 @@
+.verses{
+    padding:50px 30px;
+    margin-top: 15px;
+    height: auto;
+    background: #329abf;
+}
+
+.verses img{
+    margin: auto;
+    height: 270px;
+    display: block;
+}
+
+.ver{
+    background: white;
+    text-align: center;
+        
+}
+.ver p{
+    padding:25px 5px;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+.association h1{
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+ 
+.subasso{
+    padding: 100px;
+    width: auto;
+    display: flex;
+    
+}
+.subasso div{
+   
+    text-align: center;
+    line-height: 50px;
+}
+
+.subasso img{
+   
+    border-radius: 100%;
+    transition: all 0.1s linear;
+}
+.subasso img:hover{
+    
+    box-shadow: 0px 0px 10px 4px #329abf;
+    transform: scale(1.2);
+   
+}
+.subasso p{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 550;
+    line-height: 60px;
+}
+@media (max-width: 600px){
+
+    .ver p{
+        font-size: 10px;
+    }
+
+    .verses img{
+        
+        height: 170px;
+       
+    }
+
+    .association h1{
+        
+        font-size: 40px;
+
+    }
+
+    .subasso{
+        padding: 0;
+        padding-bottom: 40px;
+        padding-top: 20px;
+    }
+    .subasso p{
+        font-size: 10px;
+    }
+    .subasso img{
+        
+        height: 50px;
+       
+    }
+
+}
