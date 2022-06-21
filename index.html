@@ -1,144 +1,272 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Sacred Heart Church Dummy site</title>
-
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="menu.css">
-    <link rel="stylesheet" href="slider.css">
-    <link rel="stylesheet" href="generalstyle.css"> 
-      
-        <!-- <link rel="stylesheet" href="all.css"> -->
+    <!-- bootstrap css & js link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+        crossorigin="anonymous"></script>
 
-    <!--Bootstrap link-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-
-    <!--Icons cdn -->
+    <!-- icons link -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
-    <!-- bootstrap cdn for icons -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
 
+    <!-- Animation link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="newstyle.css">
+    <link rel="stylesheet" href="footer.css">
+    <title>SHC bhy</title>
 </head>
 
 <body>
 
-    <nav>
-        <div class="logo">Chruch's Logo</div>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="aboutus.html">About us </a></li>
-            <li><a href="#">Departments    <i class="fa fa-caret-down" aria-hidden="true"></i></a>
-                <ul class=" dep">
-            <li><a href="https://www.sacredheartchurchbhayandar.org/pc.html">Parish Council</a></li>
-            <li><a href="https://www.sacredheartchurchbhayandar.org/cat.html">Cathecheism</a></li>
-            <li><a href="https://www.sacredheartchurchbhayandar.org/FamilyU.html">Family unit</a></li>
-            <li><a href="https://www.sacredheartchurchbhayandar.org/Forane.html">Forane</a></li>
-        </ul>
-        </li>
+    <div class="mainlogo">
+        <img src="Asset 5@2x.png" width="50%" alt="">
+    </div>
 
+    <nav class="navbar navbar-expand-lg navbar-dark mynav ">
+        <div class="container-fluid">
 
-        <li><a href="#">Associations    <i class="fa fa-caret-down" aria-hidden="true"></i></a>
-            <ul class="asso">
-                <li><a href="https://www.sacredheartchurchbhayandar.org/pi.html">Pithruvedi</a></li>
-                <li><a href="https://www.sacredheartchurchbhayandar.org/mm.html">Mathrusangam</a></li>
-                <li><a href="https://www.sacredheartchurchbhayandar.org/cat.html">Youth</a></li>
-            </ul>
-        </li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="history.html">History</a></li>
-        <li><a href="contact.html">Contact us</a></li>
-        </ul>
+            <!-- <a class="navbar-brand" href="#">Sacred Heart Church, Bhayander</a> -->
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-lg-0">
+                    <li class="nav-item px-4">
+                        <a class="menula active" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a class="menula" href="about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item dropdown px-4">
+                        <a class="menula dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            DEPARTMENTS
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end animate slideIn" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="departments/parishcouncil.html">Parish Counncil</a></li>
+                            <li><a class="dropdown-item" href="departments/units.html">Units</a></li>
+                            <li><a class="dropdown-item" href="departments/catechism.html">Catechism</a></li>
+                            <li><a class="dropdown-item" href="departments/forane.html">Forane</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown px-4">
+                        <a class="menula dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            ASSOCIATIONS
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end animate slideIn" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="associations/pithruvedi.html">Pithruvedi</a></li>
+                            <li><a class="dropdown-item" href="associations/mathrusangam.html">Mathrusangam</a></li>
+                            <li><a class="dropdown-item" href="associations/youth.html">Youth</a></li>
+                            <li><a class="dropdown-item" href="associations/choir.html">Choir</a></li>
+                            <li><a class="dropdown-item" href="associations/choir.html">Alter boys</a></li>
+                            
+                           
+                        </ul>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a class="menula"
+                            href="https://www.facebook.com/Sacred-Heart-Catholic-Church-Bhayandar-962318043849577/photos/?ref=page_internal">GALLERY</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a class="menula" href="index.html#contact">CONTACT US</a>
+                    <li class="nav-item px-4 menula">
+                        <a class="menula" href="index.html#contact">PAY ONLINE</a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
     </nav>
-    <div class="menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i></div>
 
-    <div class="slider">
-        <div class="slider-items">
-            <div class="items active">
-                <img src="image/ch11.jpg" alt="">
-                <div class="caption">Slide 1 </div>
-            </div>
-            <div class="items">
-                <img src="image/ch1.jpg" alt="">
-                <div class="caption">Slide 2</div>
-            </div>
-            <div class="items">
-                <img src="image/ch8.jpg" alt="">
-                <div class="caption">Slide 3 </div>
-            </div>
 
+    <!-- <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
         </div>
-        <div class="prev">
-            < </div>
-                <div class="next"> > </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="slider1.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="slider2.JPG" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="entry.PNG" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+
+                </div>
+            </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div> -->
+
+    <div class="container-fluid">
+        <img src="slider2.JPG" width="100%" alt="">
+    </div>
+    <div class="intros">
+        <div>
+            <img src="mission1.png" alt="">
+        </div>
+        <p class="weltext">To prosper in evangelistic goals of delivering the faith of our forefathers to the current
+            generation by adapting to the changing times.</p>
     </div>
 
-    <div class="verses">
-        <div class="row">
-            <div class="col-6 ver">
-                    <img src="image/jessus pic.png">
-            </div>
-
-            <div class="col-6 ver">
-                <p>“They rely on weapons and daring,” he said, “but we trust in the almighty God, who is able to
-                    strike down with a
-                    single nod those coming against us—and even the whole world.”<br><b>(2 Maccabees 8:18)</b><br>
-                    <br>
-                    "As the Father has loved me, so I have loved you; abide in my love.”<br><b>(John 15:9)</b>
-                </p>
-            </div>
+    <div class="intros">
+        <div>
+            <img src="about.png" alt="">
         </div>
-
-    </div>
-
-    <div class="container-fluid association">
-        <br><br><h1>Associations</h1>
-        <div class="row subasso">
-            <div class="col-3">
-                <a href="https://www.sacredheartchurchbhayandar.org/cat.html"><img src="icons/cath.png" alt="">
-                <p>Cathecheism</p></a>
-            </div>
-            <div class="col-3">
-                <a href="https://www.sacredheartchurchbhayandar.org/mm.html"><img src="icons/mathru.png" alt="">
-                <p>Mathrusangam</p></a>
-            </div>
-            <div class="col-3">
-                <a href="https://www.sacredheartchurchbhayandar.org/yh.html"><img src="icons/shybs.png" alt="">
-                <p>SHYBS</p></a>
-
-            </div>
-            
-            <div class="col-3">
-                <a href="https://www.sacredheartchurchbhayandar.org/pi.html"><img src="icons/pithruvedi.png" alt="">
-                <p>Pithruvedi</p></a>
-            </div>
-            
-
-        </div>
+        <p class="weltext">Initiated as a small community in 1980, Sacred Heart Church has now grown to have
+            over 270 families who zealously participated in strengthening the faith handed over by St. Thomas, the
+            apostle. From the time of its inception to the current day, with the help of Vicars and parishioners, Sacred
+            Heart Church has strived to explore avenues to reach out spiritually and contribute to the social
+            development of the community.</p>
     </div>
 
 
+    <div class="intros" style="background-color: #eeeeee;">
+
+
+        <img src="recent_events.png" alt="">
+    </div>
+
+    <center>
+        <div class="sliders">
+
+
+            <div class="card" style="width: 18rem;">
+                <img src="insta/1.PNG" style="width:100%" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Completion of Year or St Joseph and Inauguration of year of St Thomas</p>
+                    <button type="button" class="btn btn-warning"><a
+                            href="https://www.instagram.com/p/CXYwroGP4tq/?utm_source=ig_web_copy_link">See more
+                        </a></button>
+                </div>
+
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <img src="insta/r2.PNG" style="width:100%" class="card-img-top" alt="...">
+                    <p class="card-text">SHYB's Reunion After the Pandemic.
+                        Meet N' Greet Event conducted for the youth which included Holy Mass, General Gathering, Games
+                        and Dance on 28-11-2021.</p>
+                    <button type="button" class="btn btn-warning"><a
+                            href="https://www.instagram.com/p/CW41QgmK_1i/?utm_source=ig_web_copy_link">See
+                            more</a></button>
+
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="insta/r3.PNG" style="width:100%" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Karunya trust Social Worker Volunteer ID card distributed to Mr. Lijo Joseph
+                        and Mr. Martin KJ considering the efforts taken to feed the under previlaged and destitutes on
+                        road in last year lock down during pandemic .</p>
+                    <button type="button" class="btn btn-warning"><a
+                            href="https://www.instagram.com/p/CWhu4oeqyLs/?utm_source=ig_web_copy_link">See
+                            more</a></button>
+
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="insta/r4.PNG" style="width:100%" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Sacred Heart Church Bhayandar family welcomed our new Parish Priest Rev.Fr.
+                        Binoy along with the faithfuls of Pune Parish
+                        Achan took the charge as the new Priest and was assisted by Rev.Fr Peter and Rev.Fr Martin
+                        Achan celebrated his 1st Holy mass today
+                        We welcome you Acha</p>
+                    <button type="button" class="btn btn-warning"><a
+                            href="https://www.instagram.com/p/CV3NeGpPBzT/?utm_source=ig_web_copy_link">See
+                            more</a></button>
+
+                </div>
+            </div>
+        </div>
+    </center>
+    <div class="row" style="text-align: center; background-color: white;">
+
+
+
+        <div class="col colimg">
+            <img src="mass.png" alt="">
+        </div>
+
+        <div class="mass col">
+            <h1 style="font-size: 50px;"> Mass Timings</h1>
+            <p>
+                • Sunday at 8:00am and 6:00pm <br>
+                <br>
+
+                • Monday to Saturday at 7:30pm<br>
+                <br>
+
+                • Novena to Our Lady Of Perpetual Help every Wednesday after the Holy
+                Mass<br>
+                <br>
+
+                • Novena to Sacred Heart of Jesus every Friday after the Holy Mass<br>
+            </p>
+        </div>
+
+    </div>
 
 
     <div class="footer row container-fluid">
-        <div class=" col-md-6 left">
+        <div class=" col-md-6 left" id="contact">
             <div class="social_media_icons">
-                <a href="https://www.facebook.com/Sacred-Heart-Catholic-Church-Bhayandar-962318043849577/"> <i
-                        class="fab fa-facebook-f fa-2x"></i></a>
-                <a href="https://www.youtube.com/channel/UCe4v70ixUEkQecglePl4Zpg"> <i
+                <a href="https://www.facebook.com/Sacred-Heart-Catholic-Church-Bhayandar-962318043849577"
+                    target="_blank"> <i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://www.youtube.com/channel/UCe4v70ixUEkQecglePl4Zpg" target="_blank"> <i
                         class="fab fa-youtube fa-2x"></i></a>
-                <a href="https://www.instagram.com/shybs_official/"> <i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://www.instagram.com/sacred_heart_catholic_church/" target="_blank"> <i
+                        class="fab fa-instagram fa-2x"></i></a>
             </div>
             <div>
                 Address: Fatak Rd, Bhayandar, Vikas Industrial Estate, Bhayandar East, Mira Bhayandar,
                 Maharashtra 401105.
-                <br>Phone: 022-2819 2096 <br>
+                <br>Phone: 022-2819 2096 <br> <br>
+                E-mail :sacredheartchurchbhayandar@gmail.com |
+                parishpriest@sacredheartchurchbhayandar.org <br><br>
 
                 Copyright Sacred Heart Church. All rights Reserved.
 
@@ -152,19 +280,6 @@
 
         </div>
     </div>
-    <!-- scrit for slider -->
-    <script src="slider.js"></script>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.js"
-        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('.menu-toggle').click(function () {
-                $('nav ul').toggleClass('active')
-            })
-        })
-    </script>
-
 
 </body>
 
